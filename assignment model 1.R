@@ -22,6 +22,7 @@ ggplot(data = customer_churn,aes(x=tenure)) +geom_histogram(fill="red",col="pink
 ggplot(data = customer_churn,aes(x=tenure), fill=partner) + geom_histogram()
 ggplot(data = customer_churn,aes(x=tenure)) + geom_histogram()
 # Change the border color to blue and background color to lightblue
+# Change the border color to blue and background color to lightblue
 plot(pressure, pch=25, col="red", bg="black")
 
 # Scale the data points by 1.2
